@@ -4,10 +4,13 @@
             <a class="nav-link active hover:text-green focus:text-green font-bold text-2xl ease-in duration-150" aria-current="page" href="{{ route('welcome') }}">MES PROJETS</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link hover:text-green focus:text-green font-bold text-2xl ease-in duration-150" href="{{ route('about') }}">À PROPOS</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link hover:text-green focus:text-green font-bold text-2xl ease-in duration-150" href="{{ route('contact') }}">CONTACT</a>
         </li>
     </ul>
-    <ul class="navbar-nav flex items-center absolute right-1/2 top-0 translate-x-1/2 hidden lg:block">
+    <ul class="navbar-nav items-center absolute right-1/2 top-0 translate-x-1/2 hidden lg:block">
         <li class="nav-item">
             <a class="nav-link active font-bold text-7xl" aria-current="page" href="{{ route('welcome') }}">RF</a>
         </li>

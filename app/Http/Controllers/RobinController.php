@@ -18,6 +18,11 @@ class RobinController extends Controller
         return view('contact');
     }
 
+    public function about()
+    {
+        return view('about');
+    }
+
     public function mailreq(Request $request)
     {
         $content = $this->validate($request, [

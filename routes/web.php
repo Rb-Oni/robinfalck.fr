@@ -17,3 +17,4 @@ use App\Http\Controllers\RobinController;
 Route::get('/', [RobinController::class, 'index'])->name('welcome');
 Route::get('/contact', [RobinController::class, 'contact'])->name('contact');
 Route::post('/contact/mail', [RobinController::class, 'mailreq'])->name('contact.mailreq');
+Route::get('/about', [RobinController::class, 'about'])->name('about');
