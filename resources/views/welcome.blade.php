@@ -5,14 +5,14 @@ Robin FALCK
 @endsection
 
 @section('content')
-<div class="container-fluid bg-white">
+<div class="container-fluid bg-black">
     <div class="container flex flex-wrap ml-auto h-50vh items-center">
         <ul>
             <li class="nav-item">
-                <h1 class="font-bold text-8xl">Robin FALCK</h1>
+                <h1 class="font-bold text-8xl text-white">Robin FALCK</h1>
             </li>
             <li class="nav-item">
-                <h2 class="text-4xl">Développeur web</h2>
+                <h2 class="text-4xl text-white">Développeur web</h2>
             </li>
         </ul>
     </div>
