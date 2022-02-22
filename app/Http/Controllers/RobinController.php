@@ -34,6 +34,6 @@ class RobinController extends Controller
 
         Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactMail($content['object'], $content['mail'], $content['msg']));
 
-        return redirect(route('contact'));
+        return redirect(route('contact'))->with('success', 'Message envoyé !');
     }
 }

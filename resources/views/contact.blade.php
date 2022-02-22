@@ -19,6 +19,8 @@ Contact - Robin FALCK
 
     <form action="{{ route('contact.mailreq') }}" method="POST" class="text-center font-semibold flex flex-col">
         @csrf
+        @include('partials.success')
+        @yield('success')
         <label for="object" class="text-white text-2xl mt-10">Objet</label>
         <input type="text" name="object" id="object" class="mt-5 p-3" placeholder="Saisissez un objet" maxlength="255" required>
         <label for="mail" class="text-white text-2xl mt-10">E-Mail</label>
