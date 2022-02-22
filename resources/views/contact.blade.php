@@ -21,12 +21,22 @@ Contact - Robin FALCK
         @csrf
         @include('partials.success')
         @yield('success')
-        <label for="object" class="text-white text-2xl mt-10">Objet</label>
+        <label for="object" class="text-white text-2xl mt-10">Objet <span class="text-red">*</span></label>
         <input type="text" name="object" id="object" class="mt-5 p-3" placeholder="Saisissez un objet" maxlength="255" required>
-        <label for="mail" class="text-white text-2xl mt-10">E-Mail</label>
+        @if($errors->has('object'))
+        <div class="text-red">{{ $errors->first('object') }}</div>
+        @endif
+        <label for="mail" class="text-white text-2xl mt-10">E-Mail <span class="text-red">*</span></label>
         <input type="email" name="mail" id="mail" class="mt-5 p-3" placeholder="Saisissez votre adresse mail" required>
-        <label for="msg" class="text-white text-2xl mt-10">Message</label>
+        @if($errors->has('mail'))
+        <div class="text-red">{{ $errors->first('mail') }}</div>
+        @endif
+        <label for="msg" class="text-white text-2xl mt-10">Message <span class="text-red">*</span></label>
         <textarea name="msg" id="msg" class="mt-5 p-3" rows="6" placeholder="Saisissez un message..." maxlength="1000" required></textarea>
+        @if($errors->has('msg'))
+        <div class="text-red">{{ $errors->first('msg') }}</div>
+        @endif
+        <p class="text-white"><span class="text-red">*</span> champs obligatoires</p>
         @if(config('services.recaptcha.key'))
         <div class="g-recaptcha flex justify-center mt-2" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
         @endif

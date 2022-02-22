@@ -26,8 +26,8 @@ class RobinController extends Controller
     public function mailreq(Request $request)
     {
         $content = $this->validate($request, [
-            'object' => 'required',
-            'mail' => 'email',
+            'object' => 'required|max:255',
+            'mail' => 'email:rfc,dns',
             'msg' => 'required',
             'g-recaptcha-response' => 'recaptcha',
         ]);
