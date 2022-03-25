@@ -15,7 +15,6 @@ class ContactMail extends Mailable
     public $mail;
     public $msg;
 
-
     /**
      * Create a new message instance.
      *
