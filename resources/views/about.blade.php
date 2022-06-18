@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="container mx-auto mb-5 w-screen md:w-1/3">
+<div class="container mx-auto px-5 lg:px-0 mb-5 w-screen lg:w-1/3">
     <h1 class="text-center my-16 font-bold text-white text-6xl lg:text-8xl">À PROPOS</h1>
     <div class="flex flex-col text-white font-semibold">
         <p class="mb-10 text-md lg:text-lg text-center">Robin, 24 ans, Développeur web junior. J'essaye de coder des sites web quand je code pas des sites web. En ce moment je travaille sur plusieurs projets Laravel / Symfony / Vue.js que vous pouvez retrouver sur mon <a href="https://github.com/Rb-Oni" target="_blank" class="font-bold">GitHub</span></a>

@@ -5,8 +5,8 @@ Robin FALCK
 @endsection
 
 @section('content')
-<div class="container-fluid bg-black hidden sm:block">
-    <div class="container flex flex-wrap ml-auto h-50vh items-center">
+<div class="container-fluid bg-black">
+    <div class="container flex flex-wrap ml-auto h-50vh items-center px-2 lg:px-0">
         <ul>
             <li class="nav-item">
                 <h1 class="font-bold text-6xl lg:text-8xl text-white">Robin FALCK</h1>
