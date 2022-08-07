@@ -23,7 +23,7 @@ Robin FALCK
     <a href="https://hokusai.robinfalck.fr" class="h-75vh bg-hokusai bg-cover flex-1 opacity-50 hover:opacity-100 ease-in duration-200"></a>
 </div>
 
-<div class="container-fluid grid grid-row md:grid-cols">
+<div class="container-fluid grid grid-row md:grid-cols-1">
     <a href="https://leslutinstournés.com" class="h-75vh bg-leslutinstournes bg-cover flex-1 opacity-50 hover:opacity-100 ease-in duration-200"></a>
 </div>
 
