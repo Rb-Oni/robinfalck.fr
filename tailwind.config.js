@@ -23,6 +23,7 @@ module.exports = {
       backgroundImage: {
         'hokusai': "url('/img/hokusai.png')",
         'leslutinstournes': "url('/img/leslutinstournes.png')",
+        'mltoiturecreation': "url('/img/mltoiturecreation.png')",
       }
     }
   },

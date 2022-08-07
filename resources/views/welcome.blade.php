@@ -18,8 +18,13 @@ Robin FALCK
     </div>
 </div>
 
-<div class="container-fluid flex flex-col md:flex-row h-75vh">
-    <a href="https://hokusai.robinfalck.fr" class="bg-hokusai bg-cover flex-1 opacity-50 hover:opacity-100 ease-in duration-200"></a>
-    <a href="https://leslutinstournés.com" class="bg-leslutinstournes bg-cover flex-1 opacity-50 hover:opacity-100 ease-in duration-200"></a>
+<div class="container-fluid grid grid-row md:grid-cols-2">
+    <a href="https://mltoiturecreation.fr" class="h-75vh bg-mltoiturecreation bg-cover flex-1 opacity-50 hover:opacity-100 ease-in duration-200"></a>
+    <a href="https://hokusai.robinfalck.fr" class="h-75vh bg-hokusai bg-cover flex-1 opacity-50 hover:opacity-100 ease-in duration-200"></a>
 </div>
+
+<div class="container-fluid grid grid-row md:grid-cols">
+    <a href="https://leslutinstournés.com" class="h-75vh bg-leslutinstournes bg-cover flex-1 opacity-50 hover:opacity-100 ease-in duration-200"></a>
+</div>
+
 @endsection
